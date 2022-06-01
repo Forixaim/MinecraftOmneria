@@ -16,7 +16,7 @@ import java.util.function.Supplier;
 public class ForiBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Omneria.ModID);
 
-	public static final RegistryObject<Block> Orichalcum_Block = RegisterBlock("orichalcum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_MATERIALS);
+	public static final RegistryObject<Block> Orichalcum_Block = RegisterBlock("orichalcum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeModeTab.TAB_BUILDING_BLOCKS);
 
 	public static <T extends Block> RegistryObject<T> RegisterBlock(String Name, Supplier<T> Block, CreativeModeTab Tab)
 	{
