@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "rawore",
+  "ingredients": [
+	{
+	  "tag": "omneria:raw_orichalcum_block"
+	}
+  ],
+  "result": {
+	"item": "omneria:raw_orichalcum",
+	"count": 9
+  }
+}
