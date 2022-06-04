@@ -20,8 +20,8 @@ public class ForiBlocks {
 
 	public static final RegistryObject<Block> Orichalcum_Block = RegisterBlock("orichalcum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(15f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
 	public static final RegistryObject<Block> Raw_Orichalcum_Block = RegisterBlock("raw_orichalcum_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
-	public static final RegistryObject<Block> Orichalcum_Ore = RegisterBlock("orichalcum_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
-	public static final RegistryObject<Block> Deepslate_Orichalcum_Ore = RegisterBlock("deepslate_orichalcum_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(9f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
+	public static final RegistryObject<Block> Orichalcum_Ore = RegisterBlock("orichalcum_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
+	public static final RegistryObject<Block> Deepslate_Orichalcum_Ore = RegisterBlock("deepslate_orichalcum_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(9f).requiresCorrectToolForDrops()), CreativeTabs.OMNERIA_MATS);
 
 
 	public static <T extends Block> RegistryObject<T> RegisterBlock(String Name, Supplier<T> Block, CreativeModeTab Tab)
