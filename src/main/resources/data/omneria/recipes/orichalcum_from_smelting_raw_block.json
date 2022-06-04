@@ -4,8 +4,7 @@
   "ingredient": {
 	"item": "omneria:raw_orichalcum_block"
   },
-  "result": "omneria:orichalcum_ingot",
-  "count": 9,
+  "result": "omneria:orichalcum_block",
   "experience": 0.7,
-  "cookingtime": 100
+  "cookingtime": 1800
 }
