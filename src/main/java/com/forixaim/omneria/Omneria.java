@@ -1,5 +1,6 @@
 package com.forixaim.omneria;
 
+import com.forixaim.omneria.block.ForiBlocks;
 import com.forixaim.omneria.items.ForiItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -33,6 +34,7 @@ public class Omneria
         IEventBus EventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ForiItems.Register(EventBus);
+        ForiBlocks.Register(EventBus);
 
         EventBus.addListener(this::setup);
 

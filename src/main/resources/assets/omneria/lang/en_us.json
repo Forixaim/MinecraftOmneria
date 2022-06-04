@@ -1,10 +1,12 @@
 {
     "item.omneria.raw_orichalcum": "Raw Orichalcum",
-    "item.omneria.raw_orichalcum_block": "Raw Orichalcum",
+    "block.omneria.raw_orichalcum_block": "Block of Raw Orichalcum",
     "item.omneria.orichalcum_ingot": "Orichalcum Ingot",
     "item.omneria.orichalcum_dust": "Orichalcum Dust",
     "item.omneria.orichalcum_nugget": "Orichalcum Nugget",
-    "item.omneria.orichalcum_ore": "Orichalcum Ore",
-    "item.omneria.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
-    "item.omneria.orichalcum_block": "Block of Orichalcum"
+    "block.omneria.orichalcum_ore": "Orichalcum Ore",
+    "block.omneria.deepslate_orichalcum_ore": "Deepslate Orichalcum Ore",
+    "block.omneria.orichalcum_block": "Block of Orichalcum",
+
+    "itemGroup.omneria_mats": "Project: Omneria - Materials"
 }

@@ -11,10 +11,10 @@ import net.minecraftforge.registries.RegistryObject;
 public class ForiItems
 {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Omneria.ModID);
-    public static final RegistryObject<Item> Raw_Orichalcum = ITEMS.register("raw_orichalcum", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-    public static final RegistryObject<Item> Orichalcum_Ingot = ITEMS.register("orichalcum_ingot", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-    public static final RegistryObject<Item> Orichalcum_Dust = ITEMS.register("orichalcum_dust", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
-    public static final RegistryObject<Item> Orichalcum_Nugget = ITEMS.register("orichalcum_nugget", () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MATERIALS)));
+    public static final RegistryObject<Item> Raw_Orichalcum = ITEMS.register("raw_orichalcum", () -> new Item(new Item.Properties().tab(CreativeTabs.OMNERIA_MATS)));
+    public static final RegistryObject<Item> Orichalcum_Ingot = ITEMS.register("orichalcum_ingot", () -> new Item(new Item.Properties().tab(CreativeTabs.OMNERIA_MATS)));
+    public static final RegistryObject<Item> Orichalcum_Dust = ITEMS.register("orichalcum_dust", () -> new Item(new Item.Properties().tab(CreativeTabs.OMNERIA_MATS)));
+    public static final RegistryObject<Item> Orichalcum_Nugget = ITEMS.register("orichalcum_nugget", () -> new Item(new Item.Properties().tab(CreativeTabs.OMNERIA_MATS)));
     public static void Register(IEventBus Bus)
     {
         ITEMS.register(Bus);
